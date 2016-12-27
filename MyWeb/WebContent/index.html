@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head ng-app="freApp">
+<meta charset="ISO-8859-1">
+<title>AngularJS</title>
+<script src="js/angular.min.js"></script>
+<script src="js/nameApp/app.js"></script>
+<script src="js/nameApp/controller.js"></script>
+</head>
+<body>
+	<div ng-controller="NameController">
+		<ul>
+			<li ng-repeat="name in names">{{name}}</li>
+		</ul>
+	</div>
+</body>
+</html>
